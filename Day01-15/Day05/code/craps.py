@@ -16,7 +16,7 @@ from random import randint
 
 money = 1000
 while money > 0:
-    print('你的总资产为:', money)
+    print('你的总资产为:%f, %f'%(money,money+1.0))
     needs_go_on = False
     while True:
         debt = int(input('请下注: '))
